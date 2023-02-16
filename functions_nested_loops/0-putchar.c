@@ -2,7 +2,7 @@
 
 /**
  *  * main - void
- *   * Return: allways
+ *   * Return: always
  *    *
  *     **/
 int main(void)
