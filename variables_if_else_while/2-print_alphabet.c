@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *  * main - Prints the alphabetic
- *   *
- *    * Return: Always (Success)
- *     **/
+ *  *
+ *  * Return: Always (Success)
+ *  **/
 int main(void)
 
 {		char c;
