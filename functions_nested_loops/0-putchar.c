@@ -1,19 +1,12 @@
 #include "_putchar"
 
 /**
- *  *  * main - Prints "_puthcar" followed by a new line.
+ *  *  * main - Prints "_putchar" followed by a new line.
  *   *   *
  *    *    * Return: Always 0.
  *     *     **/
 int main(void)
 {
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	puts(\_putchar);
 	return (0);
 }
