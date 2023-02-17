@@ -1,15 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *  *   * main - Prints the alphabet in lowercase
  *   *   *
  *    *   * Return: Always (Success)
  *     *   **/
-int main(void)
+void print_alphabet(void)
 {
 	char d;
 
 	for (d = 'a'; d <= 'z'; d++)
 	_putchar(d);
 	_putchar('\n');
-	return (0);
 }
