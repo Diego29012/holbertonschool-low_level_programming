@@ -18,6 +18,6 @@ for (d = 'a'; d <= 'z'; d++)
 	}
 	_putchar('\n');
 	}
-	return (0);
+
 }
 
