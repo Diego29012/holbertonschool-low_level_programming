@@ -8,16 +8,11 @@
 int print_last_digit(int c)
 {
 int lastd;
-lastd = c % 10;
-if (lastd > 5)
+lastd = n % 10;
+if (lastd < 0)
 {
-printf("Last digit of %d \n", c, lastd);
+lastd = lastd * -1;
 }
-else if (lastd == 0)
-printf("Last digit of %d \n", c, lastd);
-{
-else if (lastd < 6 && lastd != 0)
-printf("Last digit of %d \n", c, lastd);
-}
-return (0);
+_putchar(lastd + '0');
+return (lastd);
 }
