@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* *  prints every minute of the day of jack_bauer - check the code
+* *  jack_bauer - check the code
 * *  @c: integer
-* *  Return: always h or m
+* *  Return: always h and m
 **/
 void jack_bauer(void)
 {
