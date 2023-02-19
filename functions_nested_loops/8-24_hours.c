@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
 * *  jack_bauer - check the code
-* *  @c: integer
-* *  Return: always h and m
 **/
 void jack_bauer(void)
 {
