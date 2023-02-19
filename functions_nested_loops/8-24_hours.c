@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* *  prints every minute of the day of Jack Bauer - check the code
+* *  prints every minute of the day of jack_bauer - check the code
 * *  @c: integer
 * *  Return: always h or m
 **/
