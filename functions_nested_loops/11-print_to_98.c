@@ -3,6 +3,7 @@
 /**
 * * print_to_98 - Checks for alphabetic character
 * * @n: integer
+* * Return: no return
 * **/
 void print_to_98(int n)
 {
