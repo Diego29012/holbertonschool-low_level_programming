@@ -12,10 +12,3 @@ for (n > 98)
 _putchar("%d, ", n--);
 _putchar("%d\n", n);
 }
-else
-{
-for (n < 98)
-_putchar("%d, ", n++);
-_putchar("%d\n", n);
-}
-}
