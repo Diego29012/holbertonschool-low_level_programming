@@ -1,0 +1,5 @@
+C = gcc
+SRC = main.c school.c
+OBJ = main.o school.o
+all:
+	        cc NAME main.c school.c -o school
