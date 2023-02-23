@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*  * print_numbers - function that checks for uppercase character
+*  * print_numbers - that prints the numbers, from 0 to 9
 *  * @i: character
 *  * Return: always 0
 *  **/
