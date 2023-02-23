@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 * * print_most_numbers - a function that prints the numbers, from 0 to 9
 * * Description: Prints the numbers excluding 2 and 4
 * * Return: numbers 1 or 0
 **/
-void print_most_numbers(void);
+
+void print_most_numbers(void)
 {
 	int x = 0;
 
@@ -17,9 +19,9 @@ void print_most_numbers(void);
 }
 	else
 {
-	_putchar(x + '0');
+	putchar(x + '0');
 }
 
 }
-	_putchar('\n');
+	putchar('\n');
 }
