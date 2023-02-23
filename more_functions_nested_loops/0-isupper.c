@@ -1,14 +1,14 @@
 #include "main.h"
 /**
 * * int _isupper - Checks for lowercase return 0
-* * @c: integer  
+* * @c: integer
 * * Return: Always 0.
 **/
 int _isupper(int c);
 {
-	if (c>=65 && c <=90)
+	if (c >= 65 && c <= 90)
 {	return (1);
-}	
+}
 	else
 {
 }
