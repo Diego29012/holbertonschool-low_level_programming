@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* * int _isupper - Checks for lowercase return 0
+* * _isupper - Checks for lowercase return 0
 * * @c: integer
 * * Return: Always 0.
 **/
