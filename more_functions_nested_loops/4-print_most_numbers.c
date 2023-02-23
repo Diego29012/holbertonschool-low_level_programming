@@ -1,17 +1,25 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
-* * _isalpha - a function that prints the numbers, from 0 to 9
-* * @c: integer
-* * Return: 1 or 0
+* * print_most_numbers - a function that prints the numbers, from 0 to 9
+* * Description: Prints the numbers excluding 2 and 4
+* * Return: numbers 1 or 0
 **/
-int _isalpha(int c)
+void print_most_numbers(void);
+{
+	int x = 0;
 
+	for (; x <= 9; x++)
 {
-	if (c >= 65 && c <= 122)
+	if (x == 2 || x == 4)
 {
-	return (1);
+	continue;
 }
-	return (0);
+	else
+{
+	_putchar(x + '0');
+}
+
+}
+	_putchar('\n');
 }
