@@ -13,11 +13,11 @@ int main(void)
 	{
 		if (d % 3 == 0 && d % 5 == 0)
 		{
-		putchar ("FizzBuzz");
+		putchar (" FizzBuzz ");
 		}
 		else if (d % 3 == 0)
 		{
-		puthcar ("Fizz");
+		puthcar (" Fizz ");
 		}
 		else if (d % 5 == 0)
 		{
