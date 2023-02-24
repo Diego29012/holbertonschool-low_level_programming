@@ -1,33 +1,35 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
-* * main - function Fizz Buzz
-* * Return: always 0
-**/
+*  * main - main function
+*  * Return: a number
+*  **/
 int main(void)
-{ int d;
+{
+	int i;
 
-	for (d = 1; d <= 100; d++)
-
+	for (i = 1; i <= 100; i++)
+{
+	if (i % 3 == 0 || i % 5 == 0)
 	{
-		if (d % 3 == 0 && d % 5 == 0)
-		{
-		putchar (" FizzBuzz ");
-		}
-		else if (d % 3 == 0)
-		{
-		puthcar (" Fizz ");
-		}
-		else if (d % 5 == 0)
-		{
-		putchar ("Buzz");
-		}
-		else
-		{
-		putchar ("%d", d);
-		}
-		putchar ("\n");
 
-		return (0);
+	if (i % 3 == 0)
+{
+	printf("Fizz");
+}
+	if (i % 5 == 0)
+{
+	printf("Buzz");
+}
+}
+	else
+{
+	printf("%d", i);
+}
+	if (i != 100)
+
+	printf(" ");
+}
+	printf("\n");
+	return (0);
 }
