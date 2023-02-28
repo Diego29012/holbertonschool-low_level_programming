@@ -15,7 +15,7 @@ for (x = 0; s[x]; x++)
 {
 ;
 }
-for (x = x -1; s[x]; x--)
+for (x = x - 1; s[x]; x--)
 {
 putchar(s[x]);
 }
