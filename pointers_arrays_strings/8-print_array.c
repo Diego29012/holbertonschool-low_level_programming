@@ -12,10 +12,10 @@ int d;
 
 for (d = 0; d < n; d++)
 {
-	if (d == 0)
-		printf("%d", a[d]);
-	else
-		printf(", %d", a[d]);
+if (d == 0)
+printf("%d", a[d]);
+else
+printf(", %d", a[d]);
 }
 printf("\n");
 }
