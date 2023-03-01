@@ -1,27 +1,32 @@
-lf(char *str)
-{
-int len, n, i;
+#include <stdio.h>
+#include "main.h"
 
-len = 0;
+/**
+* puts_half - Write a function that prints half of a string
+* @str: string
+**/
+void puts_half(char *str)
+{
+	int d;
+	int k = 0;
 
-while (str[len] != '\0')
-{
-len++;
+	while (str[k] != '\0')
+	{
+		k++;
+	}
+	if (k % 2 == 1)
+	{
+		d = (k - 1) / 2;
+		d += 1;
+	}
+	else
+	{
+		d = k / 2;
+	}
+	for (; d < k; d++)
+	{
+		putchar(str[d]);
+	}
+		putchar('\n');
 }
 
-if (len % 2 == 0)
-{
-for (i = len / 2; str[i] != '\0'; i++)
-{
-puts2(str[i]);
-}
-}
-else if (len % 2)
-{
-for (n = (len - 1) / 2; n < len - 1; n++)
-{
-puts2(str[n + 1]);
-}
-}
-puts2('\n');
-}
