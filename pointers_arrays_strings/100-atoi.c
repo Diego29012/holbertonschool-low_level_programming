@@ -10,9 +10,9 @@
 int _atoi(char *s)
 {
  unsigned int i;
- int n;
+ unsigned int n = 0;
  unsigned int minus = 0;
- unsigned int convert;
+ int convert;
  unsigned int size = strlen(s);
  for (i = 0; i < size; i++)
  {
