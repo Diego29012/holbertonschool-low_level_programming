@@ -13,8 +13,8 @@ int _atoi(char *s)
  int n;
  unsigned int minus = 0;
  unsigned int convert;
- unsigned int s = strlen(s);
- for (i = 0; i < s; i++)
+ unsigned int size = strlen(s);
+ for (i = 0; i < size; i++)
  {
 	 if(s[i] == '-')
 	 {
@@ -31,7 +31,7 @@ int _atoi(char *s)
 	 n *= 10;
 	 n +=  convert;
 	 i++;
- }
+}
  if(minus % 2 == 0)
  {
 	 return (n);
