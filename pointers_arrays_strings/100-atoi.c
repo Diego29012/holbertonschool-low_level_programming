@@ -9,11 +9,11 @@
 **/
 int _atoi(char *s)
 {
- int i;
+ unsigned int i;
  int n;
- int minus = 0;
- int convert;
- int s = strlen(s);
+ unsigned int minus = 0;
+ unsigned int convert;
+ unsigned int s = strlen(s);
  for (i = 0; i < s; i++)
  {
 	 if(s[i] == '-')
