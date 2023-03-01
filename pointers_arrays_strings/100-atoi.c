@@ -9,36 +9,36 @@
 **/
 int _atoi(char *s)
 {
- unsigned int i;
- unsigned int n = 0;
- unsigned int minus = 0;
- int convert;
- unsigned int size = strlen(s);
- for (i = 0; i < size; i++)
- {
-	 if(s[i] == '-')
-	 {
-		 minus++;
-	 }
-	 if(s[i] >= 48 && s[i] <= 57)
-	 {
-		 break;
-	 }
- }
- while(s[i] >= 48 && s[i] <= 57)
- {
-	 convert = (((int)s[i]) - '0');
-	 n *= 10;
-	 n +=  convert;
-	 i++;
+unsigned int i;
+unsigned int n = 0;
+unsigned int minus = 0;
+int convert;
+unsigned int size = strlen(s);
+for (i = 0; i < size; i++)
+{
+if (s[i] == '-')
+{
+minus++;
 }
- if(minus % 2 == 0)
- {
-	 return (n);
- }
- else
- {
-	 return (-n);
- }
+if (s[i] >= 48 && s[i] <= 57)
+{
+break;
+}
+}
+while (s[i] >= 48 && s[i] <= 57)
+{
+convert = (((int)s[i]) - '0');
+n *= 10;
+n +=  convert;
+i++;
+}
+if (minus % 2 == 0)
+{
+return (n);
+}
+else
+{
+return (-n);
+}
 }
 
