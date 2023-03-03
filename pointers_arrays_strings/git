@@ -2,4 +2,4 @@
 git add .
 read -p "commit message: " name
 git commit -m "$name" 
-git push 
+git push
