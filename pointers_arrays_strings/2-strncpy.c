@@ -5,7 +5,7 @@
 * @dest: input a string
 * @src: input a string
 * @n: number of bytes
-* Return: always 0
+* Return: dest
 **/
 char *_strncpy(char *dest, char *src, int n)
 {
