@@ -8,24 +8,28 @@
 char *cap_string(char *str)
 {
 	int k = 0;
-while (str[++k])
+
+while (str[k++])
 {
-while (!(str[k] >= 'a' && str[k] <= '<'))
-k++;
-if (str[k - 1] == ' ' ||
-str[k - 1] == '\t'    ||
-str[k - 1] == '\n'    ||
-str[k - 1] == ','     ||
-str[k - 1] == ';'     ||
-str[k - 1] == '.'     ||
-str[k - 1] == '!'     ||
-str[k - 1] == '?'     ||
-str[k - 1] == '"'     ||
-str[k - 1] == '('     ||
-str[k - 1] == ')'     ||
-str[k - 1] == '{'     ||
-str[k - 1] == '}')
-str[k] -= 32;
+	if (str[k] >= 97 && str[k] <= 122)
+	{
+		if (str[k - 1] == ' ' ||
+			str[k - 1] == '\t'    ||
+			str[k - 1] == '\n'    ||
+			str[k - 1] == ','     ||
+			str[k - 1] == ';'     ||
+			str[k - 1] == '.'     ||
+			str[k - 1] == '!'     ||
+			str[k - 1] == '?'     ||
+			str[k - 1] == '"'     ||
+			str[k - 1] == '('     ||
+			str[k - 1] == ')'     ||
+			str[k - 1] == '{'     ||
+			str[k - 1] == '}')
+		{
+			str[k] -= 32;
+		}
+}
 }
 return (str);
 }
