@@ -3,34 +3,34 @@
 /**
 * cap_string - function that capitalize all words
 * @str: string to capitalize
-* Return: str
+* Return: Capitalize string
 **/
 char *cap_string(char *str)
 {
-	int k = 0;
+	int d = 0;
 
-while (str[k])
+while (str[d])
 {
-	 while (str[k] >= 97 && str[k] <= 122)
-	 {
-		 k++;
-	 }
-		if (str[k - 1] == ' ' ||
-			str[k - 1] == '\t'    ||
-			str[k - 1] == '\n'    ||
-			str[k - 1] == ','     ||
-			str[k - 1] == ';'     ||
-			str[k - 1] == '.'     ||
-			str[k - 1] == '!'     ||
-			str[k - 1] == '?'     ||
-			str[k - 1] == '"'     ||
-			str[k - 1] == '('     ||
-			str[k - 1] == ')'     ||
-			str[k - 1] == '{'     ||
-			str[k - 1] == '}'     ||
-			k == 0)
-			str[k] -= 32;
-		k++;
+	while (!(str[d] >= 'a' && str[d] <= 'z'))
+	{
+		d++;
 	}
+		if (str[d - 1] == ' ' ||
+			str[d - 1] == '\t'    ||
+			str[d - 1] == '\n'    ||
+			str[d - 1] == ','     ||
+			str[d - 1] == ';'     ||
+			str[d - 1] == '.'     ||
+			str[d - 1] == '!'     ||
+			str[d - 1] == '?'     ||
+			str[d - 1] == '"'     ||
+			str[d - 1] == '('     ||
+			str[d - 1] == ')'     ||
+			str[d - 1] == '{'     ||
+			str[d - 1] == '}'     ||
+			d == 0)
+			str[d] -= 32;
+d++;
+}
 return (str);
 }
