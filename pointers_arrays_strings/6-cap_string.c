@@ -26,11 +26,10 @@ while (str[k])
 			str[k - 1] == ')'     ||
 			str[k - 1] == '{'     ||
 			str[k - 1] == '}')
-		{
 			str[k] -= 32;
-		}
+			k++;
+	}
 }
 }
-k++;
 return (str);
 }
