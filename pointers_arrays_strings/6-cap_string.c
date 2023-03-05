@@ -30,6 +30,5 @@ while (str[k])
 			k++;
 	}
 }
-}
 return (str);
 }
