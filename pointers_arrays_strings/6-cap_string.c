@@ -30,7 +30,7 @@ while (str[k])
 			str[k] -= 32;
 		}
 }
-k++;
 }
+k++;
 return (str);
 }
