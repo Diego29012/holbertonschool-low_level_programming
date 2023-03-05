@@ -3,7 +3,7 @@
 /**
 * cap_string - function that capitalize all words
 * @str: string to capitalize
-* Return: Capitalize string
+* Return: str
 **/
 char *cap_string(char *str)
 {
@@ -27,9 +27,11 @@ while (str[k])
 			str[k - 1] == '('     ||
 			str[k - 1] == ')'     ||
 			str[k - 1] == '{'     ||
-			str[k - 1] == '}')
+			str[k - 1] == '}'
+			k == 0)
 			str[k] -= 32;
-			k++;
+			
+		k++;
 	}
 return (str);
 }
