@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * factorial - Write a function that returns the factorial of a given number
-* @n: numer to return
+* @n: number to return
 * Return: 0 or 1
 **/
 
