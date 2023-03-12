@@ -7,8 +7,15 @@
  * Return: always 0
  **/
 
-int main(int argc, char *argv[] __attribute__((unused))
+int main(int argc, __attribute__((unused)) char *argv[])
+
 {
+	int d;
+
+	for (d = 0; d < argc; d++)
+	{
+	}
+
 	printf("%d\n", argc - 1);
 	return (0);
 }
