@@ -9,10 +9,10 @@ int main(void)
 	int a;
 	char b;
 
-	for (i = 0; i < 10; i++)
-	putchar((i % 10) + '0');
-	for (l = 'a'; l <= 'f'; l++)
-	putchar(l);
-	putchar
+	for (a = 0; a < 10; a++)
+	putchar((a % 10) + '0');
+	for (b = 'a'; b <= 'f'; b++)
+	putchar(b);
+	puthcar('\n');
 	return (0);
 	}
