@@ -13,6 +13,6 @@ int main(void)
 	putchar((a % 10) + '0');
 	for (b = 'a'; b <= 'f'; b++)
 	putchar(b);
-	puthcar('\n');
+	putchar('\n');
 	return (0);
 	}
