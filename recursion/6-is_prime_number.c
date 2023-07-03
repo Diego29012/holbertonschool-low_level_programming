@@ -26,8 +26,8 @@ int check(int n, int c, int i)
 **/
 int is_prime_number(int n)
 {
-		if ((check(n, 1, 0)) == 2)
-					return (1);
-			else
-						return (0);
+	if ((check(n, 1, 0)) == 2)
+	return (1);
+	else
+	return (0);
 }
