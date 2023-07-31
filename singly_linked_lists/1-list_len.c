@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
 * list_len - counts the number of elements
 * @h: pointer to the structure
