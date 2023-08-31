@@ -15,7 +15,7 @@ int compare(int n, int i)
 		return (-1);
 		return (compare(n, i + 1));
 
-}¨
+}
 
 /**
 * _sqrt_recursion - returns the power of number
